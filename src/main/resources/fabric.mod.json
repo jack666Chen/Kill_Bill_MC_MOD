@@ -16,13 +16,13 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "jack.mods.Kill_Bill"
+            "jack.mods.BillMod.Kill_Bill"
         ],
         "client": [
-            "jack.mods.Kill_Bill_Client"
+            "jack.mods.BillMod.Kill_Bill_Client"
         ],
         "fabric-datagen": [
-            "jack.mods.Kill_BillDataGenerator"
+            "jack.mods.BillMod.Kill_BillDataGenerator"
         ]
     },
     "mixins": [
