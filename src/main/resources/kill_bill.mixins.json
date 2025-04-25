@@ -3,7 +3,7 @@
 	"package": "jack.mods.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"KillBillMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

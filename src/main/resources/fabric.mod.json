@@ -1,37 +1,40 @@
 {
-	"schemaVersion": 1,
-	"id": "kill_bill",
-	"version": "${version}",
-	"name": "Kill_Bill",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/kill_bill/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"jack.mods.Kill_Bill"
-		],
-		"fabric-datagen": [
-			"jack.mods.Kill_BillDataGenerator"
-		]
-	},
-	"mixins": [
-		"kill_bill.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.13",
-		"minecraft": "~1.20",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    "schemaVersion": 1,
+    "id": "kill_bill",
+    "version": "${version}",
+    "name": "Kill_Bill",
+    "description": "Just to Kill Bill, kill stupid bill!!!!",
+    "authors": [
+        "WindCrow"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/jack666Chen/Kill_Bill_MC_MOD"
+    },
+    "license": "MIT",
+    "icon": "assets/kill_bill/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "jack.mods.Kill_Bill"
+        ],
+        "client": [
+            "jack.mods.Kill_Bill_Client"
+        ],
+        "fabric-datagen": [
+            "jack.mods.Kill_BillDataGenerator"
+        ]
+    },
+    "mixins": [
+        "kill_bill.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.13",
+        "minecraft": "~1.20",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
 }
