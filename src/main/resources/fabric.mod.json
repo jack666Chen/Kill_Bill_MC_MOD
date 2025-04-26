@@ -12,7 +12,7 @@
         "sources": "https://github.com/jack666Chen/Kill_Bill_MC_MOD"
     },
     "license": "MIT",
-    "icon": "assets/kill_bill/icon.png",
+    "icon": "assets/kbillmod/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
