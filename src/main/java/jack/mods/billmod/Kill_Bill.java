@@ -1,4 +1,4 @@
-package jack.mods.BillMod;
+package jack.mods.billmod;
 
 import net.fabricmc.api.ModInitializer;
 

@@ -1,4 +1,4 @@
-package jack.mods.BillMod;
+package jack.mods.billmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

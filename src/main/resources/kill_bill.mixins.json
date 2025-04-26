@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "jack.mods.BillMod.mixin",
+	"package": "jack.mods.billmod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"KillBillMixin"
