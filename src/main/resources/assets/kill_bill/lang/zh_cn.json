@@ -1,4 +1,5 @@
 {
     "item.kill_bill.bill_shit": "比尔的食物",
-    "itemGroup.kill_bill_group": "杀死比尔"
+    "itemGroup.kill_bill_group": "杀死比尔",
+    "block.kill_bill.bill_block": "比尔块"
 }

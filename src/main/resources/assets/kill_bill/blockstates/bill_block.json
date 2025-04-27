@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "kill_bill:block/bill_block"
+        }
+    }
+}
