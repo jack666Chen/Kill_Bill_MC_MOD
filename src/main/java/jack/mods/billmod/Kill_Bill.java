@@ -1,5 +1,6 @@
 package jack.mods.billmod;
 
+import jack.mods.billmod.item.ModItemGroup;
 import jack.mods.billmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class Kill_Bill implements ModInitializer {
 
         LOGGER.info("Hello Fabric world!");
         ModItems.registerModItems();
+        ModItemGroup.registerModItemGroup();
     }
 }

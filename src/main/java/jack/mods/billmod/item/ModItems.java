@@ -25,6 +25,6 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToItemGroup);
     }
 }
