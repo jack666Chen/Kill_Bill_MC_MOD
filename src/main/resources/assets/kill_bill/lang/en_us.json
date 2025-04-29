@@ -1,5 +1,8 @@
 {
-    "item.kill_bill.bill_shit": "Bill's Shit",
+    "item.kill_bill.bill_shit": "Bill Shit",
     "itemGroup.kill_bill_group": "Kill Bill",
-    "block.kill_bill.bill_block": "Bill Block"
+    "block.kill_bill.bill_block": "Bill Block",
+    "item.kill_bill.bill_shit_pieces": "Bill Shit Fragments",
+    "item.kill_bill.bill_candy": "Bill Candy",
+    "item.kill_bill.liquid_bill": "Bill Liquid"
 }

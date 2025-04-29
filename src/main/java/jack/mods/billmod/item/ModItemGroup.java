@@ -16,8 +16,16 @@ public class ModItemGroup {
             new Identifier(Kill_Bill.MOD_ID, "kill_bill_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.kill_bill_group"))
                     .icon(() -> new ItemStack(ModItems.BILL_SHIT)).entries(((displayContext, entries) -> {
+                        //Food
                         entries.add(ModItems.BILL_SHIT);
+                        entries.add(ModItems.BILL_SHIT_PIECES);
+                        entries.add(ModItems.BILL_CANDY);
+
+                        //Blocks
                         entries.add(ModBlocks.BILL_BLOCK);
+
+                        //Material
+                        entries.add(ModItems.LIQUID_BILL);
                     })).build());
 
     public static void registerModItemGroup() {

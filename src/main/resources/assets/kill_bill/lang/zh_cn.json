@@ -1,5 +1,8 @@
 {
     "item.kill_bill.bill_shit": "比尔的食物",
     "itemGroup.kill_bill_group": "杀死比尔",
-    "block.kill_bill.bill_block": "比尔块"
+    "block.kill_bill.bill_block": "比尔块",
+    "item.kill_bill.bill_shit_pieces": "比尔食物碎片",
+    "item.kill_bill.bill_candy": "比尔的糖果",
+    "item.kill_bill.liquid_bill": "比尔的液体"
 }
